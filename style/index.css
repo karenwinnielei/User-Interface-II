@@ -32,22 +32,47 @@ vertical-align: baseline;
 
 body{
     font-family: 'Rubik', sans-serif;
-
 }
 section{
-    display:flex;
-    flex-direction: column;
+    /* display:flex;
+    height: 90vh; */
 
 }
 h1, h2, h3, h4{
     font-family: 'Comfortaa', cursive;
 }
 
+h1{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+}
+
+a{
+    text-decoration: none;
+}
 
 /* header section styles */
+header{
+    display: flex;
+    width: 100%;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .headerName{
@@ -58,4 +83,33 @@ nav{
     width: 60%;
     display: flex;
     justify-content:space-around;
+    align-items: center;
+}
+
+.links a{
+    margin: 
+}
+/* top section styles */
+
+/* bottom section styles */
+.bottom{
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 0%;
+}
+
+.bottom div{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
