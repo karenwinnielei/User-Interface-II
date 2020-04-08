@@ -70,7 +70,7 @@ h1, h2, h3, h4{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 80px;
     font-weight: bold;
 }
 
@@ -80,7 +80,7 @@ h3{
 
 h4{
     font-size: 20px;
-    padding: 3%;
+    padding: 3% 0;
 }
 
 img{
@@ -191,6 +191,10 @@ footer a{
     border: 1px solid black;
     padding: 5px 50px;
     margin: 1% 0;
+}
+
+footer a:hover{
+    color:white;
 }
 
 footer div a{
