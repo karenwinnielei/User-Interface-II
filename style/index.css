@@ -1,1 +1,202 @@
 /* Add CSS styling here */
+/* add your reset */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/* border: 0;   */
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/* general styles */
+*{
+    /* border: 1px solid grey; */
+    box-sizing: border-box;
+    max-width: 100%;
+
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.4;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+h1, h2, h3, h4{
+    font-family: 'Comfortaa', cursive;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+    padding: 3% 0;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#container{
+    min-height: 100%;
+    position: relative;
+}
+
+/* header section styles */
+#header{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.headerName{
+    width: 20%;
+    margin: 0 1%;
+}
+
+.links{
+    width: 60%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.links a{
+    border: 1px solid black;
+    padding: 5px 30px;
+    color: black;
+}
+.links a:hover{
+    background: black;
+    color: white;
+}
+/* content styles */
+#body{
+    padding: 10px;
+    padding-bottom: 20vh;
+}
+
+/* top section styles */
+.top{
+    width: 80%;
+    height: 50vh;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/leaf.jpg");
+    background-color:pink;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.top div{
+    width: 80%;
+    text-align: center;
+}
+
+.topName{
+    margin: 2%;
+}
+
+.top a{
+    border: 1px solid white;
+    padding: 5px 15px;
+    color: white;
+}
+
+.top a:hover{
+    color: black;
+}
+
+
+/* bottom section styles */
+.bottom{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3% 0%;
+}
+
+.bottom div{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
+}
+
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightgrey;
+}
+
+#footer a{
+    color: black;
+    border: 1px solid black;
+    padding: 5px 50px;
+    margin: 1% 0;
+}
+
+#footer a:hover{
+    color:white;
+}
+
+#footer div a{
+    border:none;
+    padding: 15px;
+}
