@@ -27,7 +27,6 @@ vertical-align: baseline;
     /* border: 1px solid grey; */
     box-sizing: border-box;
     max-width: 100%;
-
 }
 
 html{
@@ -39,10 +38,6 @@ body{
     font-family: 'Rubik', sans-serif;
     font-size: 1.6rem;
     line-height: 1.4;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
 h1, h2, h3, h4{
@@ -67,7 +62,7 @@ h4{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 a{
@@ -115,7 +110,6 @@ nav{
 /* content styles */
 #body{
     padding: 1%;
-    /* padding-bottom: 20vh; */
 }
 
 /* top section styles */
@@ -162,7 +156,6 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 3% 0%;
 }
 
 .bottom div{
@@ -173,11 +166,15 @@ nav{
     padding: 1%;
 }
 
+.bottom div img{
+    width: 100%;
+    height: 35vh;
+}
+
 
 #footer{
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    padding: 2% 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,8 +185,14 @@ nav{
 #footer a{
     color: black;
     border: 1px solid black;
-    padding: 5px 50px;
-    margin: 1% 0;
+    padding: 0.5% 4%;
+    margin: 1% auto;
+}
+
+#footer div{
+    width:18%;
+    display: flex;
+    justify-content: center;
 }
 
 #footer a:hover{
@@ -198,5 +201,105 @@ nav{
 
 #footer div a{
     border:none;
-    padding: 15px;
+}
+
+@media (max-width:800px){
+    body{
+        font-size: 1.3rem;
+        line-height: 1.2;
+    }
+
+    h1{
+        font-size: 5rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    h4{
+        font-size:1.6rem;
+    }
+
+    .top{
+        height: 35vh;
+    }
+
+    .bottom div img{
+        height: 20vh;
+    }
+
+}
+
+@media (max-width: 500px){
+    body{
+        font-size: 1.1rem;
+        line-height: 1.1;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        font-size:1.3rem;
+        margin-top: 1%;
+    }
+    #header{
+        padding: 1% 0;
+    }
+    .top{
+        height: 30vh;
+    }
+
+    .bottom{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .bottom div{
+        width: 90%;
+    }
+
+    .bottom div img{
+        height: 20vh;
+    }
+    
+    a{
+        font-size: 1.1rem;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1% 0;
+    }
+    .links{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1% 0;
+        text-align: center;
+    }
+    .links a{
+        border: 1px solid black;
+        width: 100%;
+        padding: 1% 4%;
+        color: black;
+    }
+    .headerName{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
