@@ -79,7 +79,7 @@ a{
 
 /* header section styles */
 #header{
-    width: 98%;
+    width: 100%;
     padding: 10px;
     display: flex;
 }
