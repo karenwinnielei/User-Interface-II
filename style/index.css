@@ -221,6 +221,22 @@ nav{
         font-size:1.6rem;
     }
 
+    .links{
+        width: 50%;
+        margin: 0 1%;
+    }
+
+    .links a{
+        padding: 0 2%;
+        text-align: center;
+    }
+
+    .bottom div{
+        width: 45%;
+        padding: 2%;
+
+    }
+
 }
 
 @media (max-width: 500px){
