@@ -221,14 +221,6 @@ nav{
         font-size:1.6rem;
     }
 
-    .top{
-        height: 35vh;
-    }
-
-    .bottom div img{
-        height: 20vh;
-    }
-
 }
 
 @media (max-width: 500px){
@@ -252,9 +244,6 @@ nav{
     #header{
         padding: 1% 0;
     }
-    .top{
-        height: 30vh;
-    }
 
     .bottom{
         display: flex;
@@ -264,10 +253,6 @@ nav{
 
     .bottom div{
         width: 90%;
-    }
-
-    .bottom div img{
-        height: 20vh;
     }
     
     a{
@@ -291,7 +276,7 @@ nav{
         text-align: center;
     }
     .links a{
-        border: 1px solid black;
+        border: 0.5px solid black;
         width: 100%;
         padding: 1% 4%;
         color: black;
